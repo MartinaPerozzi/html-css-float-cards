@@ -19,6 +19,7 @@ img{
     clear:both;
     display:table;
     content:"";
+    margin:40px;
 }
 
 /* header style */
@@ -42,6 +43,7 @@ h1{
     float:left;
     margin-left: 10px;
     margin-right: 10px;
+    box-shadow: 2px 2px 4px #000000;
 }
 
 .column > span{
