@@ -9,9 +9,24 @@ img{
     max-width:100px;
 }
 
-.container, .row{
+.container{
     max-width:1200px;
     margin: 0 auto;
+}
+
+/* header style */
+header{
+    margin-top:20px;
+}
+
+h1, p, a{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+/* Main */
+.row{
+    padding:0 40px;
 }
 
 .row::after{
@@ -21,16 +36,10 @@ img{
     margin:40px;
 }
 
-/* header style */
-h1, p, a{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-}
 .container> p{
     margin-bottom:30px;
     margin-top:30px;
-    padding:10px;
+    padding:0 40px;
 }
 
 h1{
@@ -80,11 +89,11 @@ h1{
     display:inline;
     float:left;
 }
-a{
+
+a[href$=".com"] {
     color:rgb(102, 170, 215);
     font-size: 16px;
     font-style: normal;
     text-decoration: none;
     font-weight: lighter;
 }
-
