@@ -12,7 +12,6 @@ img{
 .container, .row{
     max-width:1200px;
     margin: 0 auto;
-    vertical-align: middle;
 }
 
 .row::after{
@@ -25,9 +24,13 @@ img{
 /* header style */
 h1, p, a{
     text-align: center;
-    padding:20px;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+}
+.container> p{
+    margin-bottom:30px;
+    margin-top:30px;
+    padding:10px;
 }
 
 h1{
@@ -38,7 +41,8 @@ h1{
 /* main style */
 
 .column{ 
-    width: calc(90%/3);    
+    width: calc(100%/3- 20px);  
+    min-width:350px;  
     background-color: black;
     float:left;
     margin-left: 10px;
@@ -46,21 +50,22 @@ h1{
     box-shadow: 2px 2px 4px #000000;
 }
 
-.column > span{
+.column > .info{
     color:white;
     text-align: left;
     display: inline-block;
+    margin-top:7px;
+    margin-left:10px;
 }
 
-span > p, address{
+.info > p, address{
+    line-height: 30px;
     text-align:left;
-    margin-left:8px;
-    font-size: 18px;
     font-weight: bold;
 }
 
 .work{
-    font-size:16px;
+    font-size:15px;
     text-decoration: none;
     font-style: normal;
     font-weight: lighter;
