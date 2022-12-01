@@ -61,6 +61,9 @@ h1{
 .info > p, address{
     line-height: 30px;
     text-align:left;
+}
+.worker{
+    font-size: 17px;
     font-weight: bold;
 }
 
@@ -68,6 +71,7 @@ h1{
     font-size:15px;
     text-decoration: none;
     font-style: normal;
+    font-family: 'Roboto', sans-serif;
     font-weight: lighter;
 }
 
