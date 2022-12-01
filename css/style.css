@@ -17,4 +17,11 @@ img{
 h1, p{
     text-align: center;
     padding:20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+h1{
+    font-family: 'Nerko One', cursive;
+    font-size: 36px;
+    color:rgb(223, 32, 96);
 }
