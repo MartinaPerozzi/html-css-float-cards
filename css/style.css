@@ -55,15 +55,13 @@ h1{
 span > p, address{
     text-align:left;
     margin-left:8px;
-}
-span > p{
     font-size: 18px;
     font-weight: bold;
 }
+
 .work{
     font-size:16px;
     text-decoration: none;
-    margin-top:5px;
     font-style: normal;
     font-weight: lighter;
 }
@@ -78,5 +76,6 @@ a{
     font-size: 16px;
     font-style: normal;
     text-decoration: none;
+    font-weight: lighter;
 }
 
